@@ -2,7 +2,7 @@
 
 describe('Age', function() {
   it('should take the users age and make in into second', function() {
-    let input = new Age(1)
-    expect(input.yearToSeconds()).toEqual(31557459.167);
+    let input = new Age(20)
+    expect(input.yearToSeconds()).toEqual(631149183.34);
   });
 });

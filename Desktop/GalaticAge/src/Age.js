@@ -13,6 +13,4 @@ export class Age {
   venusAge(){
 
   }
-
-
 }

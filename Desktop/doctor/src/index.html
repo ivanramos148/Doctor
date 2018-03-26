@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <title>doctor</title>
-  </head>
-  <body>
-    <div class='container'>
-      <h1>doctor</h1>
-      <input type="text" id="">
-      <button type="submit" class="btn btn-primary"></button>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Doctor Lookup</title>
+</head>
+
+<body>
+  <center>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Doctor's Lists!</h1>
+      </div>
+      <form id="doctorForm">
+        <p>Search a doctor:</p>
+        <input id="first-name" placeholder="first name"><br><br>
+        <input id="last-name" placeholder="last name"><br><br>
+        <p>Search a condition:</p>
+        <select id="specialty">
+
+        </select>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <p id="error"></p>
+      <ul id="doctorList"></ul>
     </div>
-  </body>
+  </center>
+</body>
+
 </html>
